@@ -24,37 +24,37 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header-line">
-      <div class="container nav-container">
-        <nav class="menu-header">
-          <a class="link-header logo" href="index.html"
-            ><span class="web" lang="en">Web</span>Studio</a
+    <header class="header">
+      <div class="container nav">
+        <nav class="nav">
+          <a class="logo nav__link" href="index.html"
+            ><span class="nav__logo" lang="en">Web</span>Studio</a
           >
-          <ul class="menu-header">
-            <li>
-              <a class="menu menu-link link" href="index.html">Студия</a>
+          <ul class="nav">
+            <li class="nav__menu">
+              <a class="nav nav__style link" href="index.html">Студия</a>
             </li>
-            <li>
-              <a class="menu menu-link link current" href="portfolio.html"
+            <li class="nav__menu">
+              <a class="nav nav__style current link" href="portfolio.html"
                 >Портфолио</a
               >
             </li>
-            <li>
-              <a class="menu link menu-link-indent" href="#">Контакты</a>
+            <li class="nav__menu">
+              <a class="nav nav__style link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="menu contact">
-          <li>
-            <a class="contact-mail link" href="mailto:info@devstudio.com">
-              <svg class="icon" width="16" height="12">
+        <ul class="nav contact">
+          <li class="contact__position">
+            <a class="contact__mail link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/symbol.svg#icon-mail"></use></svg
               >info@devstudio.com
             </a>
           </li>
-          <li>
-            <a class="contact-phone link" href="tel:+380961111111"
-              ><svg class="icon" width="10" height="16">
+          <li class="contact__position">
+            <a class="contact__phone link" href="tel:+380961111111"
+              ><svg class="contact__icon" width="10" height="16">
                 <use href="./images/symbol.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -67,28 +67,28 @@
       <section class="section">
         <div class="container">
           <h1 hidden>Портфолио меню</h1>
-          <ul class="menu menu-btn">
+          <ul class="menu">
             <li>
-              <button class="portfolio-btn-all" type="button">Все</button>
+              <button class="menu__btn__first" type="button">Все</button>
             </li>
             <li>
-              <button class="portfolio-btn" type="button">Веб-сайты</button>
+              <button class="menu__btn" type="button">Веб-сайты</button>
             </li>
             <li>
-              <button class="portfolio-btn" type="button">Приложения</button>
+              <button class="menu__btn" type="button">Приложения</button>
             </li>
-            <li><button class="portfolio-btn" type="button">Дизайн</button></li>
+            <li><button class="menu__btn" type="button">Дизайн</button></li>
             <li>
-              <button class="portfolio-btn" type="button">Маркетинг</button>
+              <button class="menu__btn" type="button">Маркетинг</button>
             </li>
           </ul>
-          <ul class="portfolio-cards">
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+          <ul class="card">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img src="./images/portfolio/img.jpg" alt="Технокряк" />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -96,21 +96,21 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item">Технокряк</h2>
-                  <p class="filter-suptitle">Веб-сайт</p>
+                <div class="card__before">
+                  <h2 class="card__header">Технокряк</h2>
+                  <p class="card__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img
                     src="./images/portfolio/img-1.jpg"
                     alt="Постер New Orlean vs Golden Star"
                   />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -118,23 +118,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item">
+                <div class="card__before">
+                  <h2 class="card__header">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h2>
-                  <p class="filter-suptitle">Дизайн</p>
+                  <p class="card__text">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img
                     src="./images/portfolio/img-2.jpg"
                     alt="Ресторан Seafood"
                   />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -142,20 +142,20 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item">
+                <div class="card__before">
+                  <h2 class="card__header">
                     Ресторан <span lang="en">Seafood</span>
                   </h2>
-                  <p class="filter-suptitle">Приложение</p>
+                  <p class="card__text">Приложение</p>
                 </div></a
               >
             </li>
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img src="./images/portfolio/img-3.jpg" alt="Проект Prime" />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -163,20 +163,20 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item">
+                <div class="card__before">
+                  <h2 class="card__header">
                     Проект <span lang="en">Prime</span>
                   </h2>
-                  <p class="filter-suptitle">Маркетинг</p>
+                  <p class="card__text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img src="./images/portfolio/img-4.jpg" alt="Проект Boxes" />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -184,23 +184,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item">
+                <div class="card__before">
+                  <h2 class="card__header">
                     Проект <span lang="en">Boxes</span>
                   </h2>
-                  <p class="filter-suptitle">Приложение</p>
+                  <p class="card__text">Приложение</p>
                 </div></a
               >
             </li>
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img
                     src="./images/portfolio/img-5.jpg"
                     alt="Inspiration has no Borders"
                   />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -208,23 +208,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item" lang="en">
+                <div class="card__before">
+                  <h2 class="card__header" lang="en">
                     Inspiration has no Borders
                   </h2>
-                  <p class="filter-suptitle">Веб-сайт</p>
+                  <p class="card__text">Веб-сайт</p>
                 </div></a
               >
             </li>
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img
                     src="./images/portfolio/img-6.jpg"
                     alt="Издание Limited Edition"
                   />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -232,20 +232,20 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item">
+                <div class="card__before">
+                  <h2 class="card__header">
                     Издание <span lang="en">Limited Edition</span>
                   </h2>
-                  <p class="filter-suptitle">Дизайн</p>
+                  <p class="card__text">Дизайн</p>
                 </div></a
               >
             </li>
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img src="./images/portfolio/img-7.jpg" alt="Проект LAB" />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -253,21 +253,23 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item">Проект <span lang="en">LAB</span></h2>
-                  <p class="filter-suptitle">Маркетинг</p>
+                <div class="card__before">
+                  <h2 class="card__header">
+                    Проект <span lang="en">LAB</span>
+                  </h2>
+                  <p class="card__text">Маркетинг</p>
                 </div></a
               >
             </li>
-            <li class="filter-img">
-              <a class="cards-hover link" href="">
-                <div class="product-thumb">
+            <li class="card__img">
+              <a class="card__link link" href="">
+                <div class="card__before__thumb">
                   <img
                     src="./images/portfolio/img-8.jpg"
                     alt="Growing Business"
                   />
-                  <div class="product-before">
-                    <p class="portfolio-link">
+                  <div class="card__before__hidden">
+                    <p class="card__before__text">
                       Ресурс предлагает комплексные предложения с разным уровнем
                       функционала и сервисов. Все это позволит посетителю
                       получить исчерпывающие сведения о компании или частном
@@ -275,9 +277,9 @@
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-item">
-                  <h2 class="filter-item" lang="en">Growing Business</h2>
-                  <p class="filter-suptitle">Приложение</p>
+                <div class="card__before">
+                  <h2 class="card__header" lang="en">Growing Business</h2>
+                  <p class="card__text">Приложение</p>
                 </div></a
               >
             </li>
@@ -287,29 +289,33 @@
     </main>
     <!--footer-->
     <footer class="footer">
-      <div class="container footer-block">
-        <div class="adress-block">
-          <a class="link-logo link-footer footer-box" href="link"
-            ><span class="web" lang="en">Web</span>Studio</a
+      <div class="container footer__block">
+        <div>
+          <a class="logo logo--color nav__link" href="index.html"
+            ><span class="nav__logo" lang="en">Web</span>Studio</a
           >
-          <address class="footer-box">
+          <address>
             <ul>
-              <li>
+              <li class="box__item">
                 <a
-                  class="contact-adress link"
+                  class="contact__adress link"
                   href="https://goo.gl/maps/QuRmtKjdtKWpMWAw7"
                   target="_blank"
                   rel="noopener noreferrer"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="box-item">
-                <a class="contact-mail-footer" href="mailto:info@devstudio.com"
+              <li class="box__item">
+                <a
+                  class="contact__mail contact__mail--color link"
+                  href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="box-item">
-                <a class="contact-phone-footer" href="tel:+380961111111"
+              <li class="box__item">
+                <a
+                  class="contact__phone contact__phone--color link"
+                  href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -317,11 +323,11 @@
           </address>
         </div>
         <div class="join">
-          <p class="block-header">присоединяйтесь</p>
-          <ul class="footer-icon">
+          <p class="join__header">присоединяйтесь</p>
+          <ul class="join__icon">
             <li>
               <a
-                class="footer-icon-item"
+                class="team__icon__item team__icon__item--color"
                 href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -331,7 +337,7 @@
             </li>
             <li>
               <a
-                class="footer-icon-item"
+                class="team__icon__item team__icon__item--color"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -341,7 +347,7 @@
             </li>
             <li>
               <a
-                class="footer-icon-item"
+                class="team__icon__item team__icon__item--color"
                 href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -352,7 +358,7 @@
             </li>
             <li>
               <a
-                class="footer-icon-item-last"
+                class="team__icon__item team__icon__item--color"
                 href="https://www.linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -364,16 +370,16 @@
         </div>
         <!--subscribe-->
         <form class="subscribe">
-          <p class="subscribe-header">подпишитесь на рассылку</p>
-          <div class="subscribe-field">
-            <label for="mail" class="subscribe-label"></label>
+          <p class="subscribe__header">подпишитесь на рассылку</p>
+          <div class="subscribe__field">
+            <label class="subscribe__label"></label>
             <input
-              class="subscribe-input"
+              class="subscribe__input"
               type="email"
               name="mail"
               placeholder="E-mail"
             />
-            <button class="subscribe-btn" type="submit">Подписаться</button>
+            <button class="subscribe__btn" type="submit">Подписаться</button>
           </div>
         </form>
       </div>
