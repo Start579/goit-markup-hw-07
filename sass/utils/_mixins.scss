@@ -1,0 +1,3 @@
+@mixin centeredFlex($type: flex) {
+  display: $type;
+}
