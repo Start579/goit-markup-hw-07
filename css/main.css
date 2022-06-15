@@ -628,6 +628,14 @@ img {
   cursor: pointer;
 }
 
+.team__item {
+  margin-right: 10px;
+}
+
+.team__item:last-child {
+  margin-right: 0;
+}
+
 .team__icon__item {
   background-color: transparent;
   fill: #afb1b8;
@@ -644,7 +652,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
   border: none;
-  margin-right: 10px;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -652,10 +659,6 @@ img {
 .team__icon__item--color {
   fill: white;
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.team__icon__item:last-child {
-  margin-right: 0;
 }
 
 .team__icon__item:hover {
