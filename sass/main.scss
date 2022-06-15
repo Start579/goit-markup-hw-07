@@ -17,20 +17,21 @@
 @import "./components/subscribe";
 @import "./components/modal";
 @import "./components/checkbox";
-
+@import "./components/card";
+@import "./components/menu";
 
 .nav {
     @include centeredFlex();
 }
 .container {
-  width: 1200px;
+    width: 1200px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;  
 }
 .section {
    padding-top: 94px;
-    padding-bottom: 94px; 
+   padding-bottom: 94px; 
 }
 body {
   font-family: $accent-font;
