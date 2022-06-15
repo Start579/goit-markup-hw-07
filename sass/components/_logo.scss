@@ -1,11 +1,12 @@
-.logo--color {
-    color: $second-color;
-}
+
 .nav__logo {
     color: $accent-color;
     font-weight: $accent-font-weight;
     font-family: raleway;
     font-size: 26px;
+}
+.logo--color {
+    color: $second-color;
 }
 .logo {
     color: $accent-secondary-color;

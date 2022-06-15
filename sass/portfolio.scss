@@ -3,21 +3,16 @@
 @import "./utils/placeholders";
 @import "./base/normalise";
 @import "./base/styles";
+@import "./base/styles";
 @import "./components/page-header";
 @import "./components/logo";
 @import "./components/nav";
 @import "./components/contacts";
-@import "./components/hero";
-@import "./components/description";
-@import "./components/work";
-@import "./components/team";
-@import "./components/clients";
 @import "./components/footer";
 @import "./components/join";
 @import "./components/subscribe";
-@import "./components/modal";
-@import "./components/checkbox";
-
+@import "./components/card";
+@import "./components/menu";
 
 .nav {
     @include centeredFlex();
