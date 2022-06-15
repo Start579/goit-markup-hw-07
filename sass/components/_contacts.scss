@@ -19,6 +19,9 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.contact__position:last-child {
+  margin-right: 0;
+}
 .contact__icon {
   margin-right: 10px;
   transition: fill 250ms $cubic;

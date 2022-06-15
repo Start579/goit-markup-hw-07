@@ -3,9 +3,14 @@
   justify-content: center;
   margin-bottom: 50px;
 }
+.menu__btn__item {
+  margin-right: 8px;
+}
+.menu__btn__item:last-child {
+  margin-right: 0;
+}
 .menu__btn__first {
   padding: 6px 22px 6px 22px;
-  margin-right: 8px;
   font-size: $secondary-font-size;
   line-height: 1.62;
   text-align: center;
@@ -22,7 +27,6 @@
 }
 .menu__btn {
   padding: 6px 22px 6px 22px;
-  margin-right: 8px;
   font-size: $secondary-font-size;
   line-height: 1.62;
   text-align: center;
